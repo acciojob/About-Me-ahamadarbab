@@ -1,1 +1,67 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #eee;
+}
 
+.container {
+	width: 80%;
+	margin: 40px auto;
+	background: white;
+	display: flex;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+	width: 50%;
+}
+
+.right {
+	width: 50%;
+	padding-left: 40px;
+}
+
+.profile-image {
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.profile {
+	display: flex;
+}
+
+.personal-info {
+	margin-left: 60px;
+}
+
+h1 {
+	border-bottom: 4px solid blue;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+.skill {
+	margin-bottom: 15px;
+}
+
+.skill p {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.bar {
+	background: #ddd;
+	height: 8px;
+	border-radius: 5px;
+}
+
+.bar div {
+	height: 8px;
+	background: #007bff;
+	border-radius: 5px;
+}
